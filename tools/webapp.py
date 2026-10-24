@@ -101,7 +101,7 @@ def files(config, made_by):
         if name.endswith('.png') or name.startswith('LICENSE'):
             with open(os.path.join(symbols, name), 'rb') as f:
                 out['symbols/' + name] = f.read()
-    for name in ('InterVariable.ttf', 'OFL.txt'):
+    for name in ('Almarai.ttf', 'OFL.txt'):
         with open(os.path.join(ROOT, 'app', 'assets', 'fonts', name), 'rb') as f:
             out['fonts/' + name] = f.read()
     return out

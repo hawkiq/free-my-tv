@@ -87,7 +87,7 @@ final class Ui {
         }
     }
 
-    private static final String FONT = "fonts/InterVariable.ttf";
+    private static final String FONT = "fonts/Almarai.ttf";
 
     // MARK: - Text in the viewer's language
 

@@ -49,6 +49,7 @@
         <package android:name="com.softwinner.awlivetv" />
         <package android:name="com.amazon.tv.livetv" />
         <package android:name="com.amazon.mediatek.livetv" />
+        <package android:name="com.shabakaty.cbox.cinemanb" />
         <intent>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
